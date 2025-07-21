@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>HTML DOM!!!</title>
+    </head>
+
+    <body>
+
+        <h1 id="heading">Welcome To My Webpage</h1>
+        <button onclick="showAlert()">CLICK ME!</button>
+
+        <script>
+            function showAlert()  {
+                var text = document.getElementById ("heading").innerHTML;
+                alert("The first heading is" + text);
+            }
+        </script>
+    </body>
+</html>
